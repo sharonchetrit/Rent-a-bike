@@ -1,6 +1,7 @@
 from django import forms
 from rent_app.models import Rental, Customer
 
+#my classes
 
 class AddRental(forms.ModelForm):
 	class Meta():
