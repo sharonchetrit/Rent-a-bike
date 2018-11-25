@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>All Rentals</title>
+</head>
+<body>
+
+
+<h1>This is rent</h1>
+
+{% for rent in rentals %}
+<a href="{% url 'rent_app:rental' rent.id %}">
+	 Rental of  : {{rent.customer}}
+</a>
+
+
+<p> ------------------ </p>
+
+{% endfor %}
+
+</body>
+</html>

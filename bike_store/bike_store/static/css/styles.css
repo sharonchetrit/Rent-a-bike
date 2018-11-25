@@ -1,0 +1,10 @@
+body{
+	background-color: pink;
+	font-family: 'Helvetica';
+}
+
+.customer {
+	color: red;
+	text-decoration: underline;
+
+}

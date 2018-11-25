@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>All Customers</title>
+</head>
+<body>
+
+
+<h1>All Customers</h1>
+{% for customer in customers %}
+	<a href="{% url 'rent_app:customer' customer.id %}">
+		{{customer}}
+	</a>
+
+
+	<p> ------------------ </p>
+
+{% endfor %}
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+ <html> 
+ <head> 
+    <link rel="" >
+    <title>{% block header_title %}{% endblock %}</title>
+ </head> 
+ <body> 
+ <div class="container">
+<!--     <a href="{%url 'rent_app:index' %}"> Rent Vehicle </a>
+ -->    <div id="content">
+    	{% block content %}{% endblock %}
+    </div>
+ </body>
+ </html>
+
